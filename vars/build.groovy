@@ -12,7 +12,7 @@
 // }
 
 
-def call (projectName , imageName , tag){
+def call (imageName , tag){
     echo "We will build image"
     sh " docker build -t ${imageName}:${tag}
 }
