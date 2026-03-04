@@ -14,5 +14,5 @@
 
 def call (imageName , tag){
     echo "We will build image"
-    sh " docker build -t ${imageName}:${tag}
+    sh " docker build -t ${imageName}:${tag}"
 }
