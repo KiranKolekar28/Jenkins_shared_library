@@ -1,0 +1,12 @@
+  // stage("Image build"){
+  //           steps{
+  //               echo "We will create image from Dockerfile"
+  //               sh "docker build -t insect:latest . "
+  //           }
+  //       }
+
+
+def call (){
+   echo "We will create image from Dockerfile"
+   sh "docker build -t insect:latest . "
+}
